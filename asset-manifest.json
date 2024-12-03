@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Be30nCH1k/React.github.io.git/static/css/main.072288dc.css",
+    "main.js": "/Be30nCH1k/React.github.io.git/static/js/main.f8d2ccce.js",
+    "index.html": "/Be30nCH1k/React.github.io.git/index.html",
+    "main.072288dc.css.map": "/Be30nCH1k/React.github.io.git/static/css/main.072288dc.css.map",
+    "main.f8d2ccce.js.map": "/Be30nCH1k/React.github.io.git/static/js/main.f8d2ccce.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.072288dc.css",
+    "static/js/main.f8d2ccce.js"
+  ]
+}
