@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    background-color: #333;
+    color: #fff;
+    font-family: Caveat;
+    font-weight: 300;
+    font-size: 36px;
+}
+
+.header{
+    background-color: #222;
+    padding: 25px 100px;
+    font-weight: 600;
+}
+main{
+    margin: 50px 100px;
+    width: 50%;
+    float: left;
+}
+aside{
+    width: 20%;
+    margin-top: 50px;
+    margin-left: 5%;
+    float: left;
+}
+
+main .user{
+    margin-bottom: 50px;
+    background-color: #3e8fa0;
+    padding: 20px;
+}
+
+main .deleteIcon{
+    float: right;
+    color: #134b57;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .addIcon{
+    float: right;   
+    margin-right: 50px;
+    color: #134b57;
+    cursor: pointer;
+    transform: scale(2);
+}
+
+main .deleteIcon:hover, .addIcon:hover{
+    opacity: 0.5s;
+}
+
+aside form input:not([type="checkbox"]),
+aside form textarea, 
+aside form button {
+    font-family: Caveat;
+    width: 90%;
+    padding: 15px 5%;
+    font-weight: 300;
+    margin-bottom: 10px;
+    background-color: #222;
+    border: 0px;
+    color: #fff;
+    outline: none;
+    font-size: 15px;
+}
+
+aside form input[type="checkbox"]{
+    margin: 10px;
+}
+
+aside form button{
+    width: 100%;
+    cursor: pointer;
+    transition:  0.5s ease;
+
+}
+aside form button:hover{
+    transform: scale(1.1);
+    font-size: 18px;
+        
+}
+aside form button:active{
+    background-color: #545454;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
